@@ -1,0 +1,65 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fixed Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    transition: background 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    color: #ffcc00;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Scroll Effect */
+.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* Page Sections */
+.content section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+}
+
+#home { background: #3498db; }
+#about { background: #2ecc71; }
+#services { background: #e74c3c; }
+#contact { background: #9b59b6; }
